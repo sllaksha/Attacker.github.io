@@ -1,0 +1,30 @@
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8L64ZBYXXW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8L64ZBYXXW');
+</script>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<div class="w3-content" style="max-width:1100px">
+Hello friends! Welcome to my twisted XSS labs! These are the reflected XSS labs with some of the sweetest cheese but you will have to for it.<br>
+Here are some ground rules: 
+<ul>
+	<li>00.php is supposed to be safe, please report all issues to info@thexssrat.com</li>
+	<li>You can always go to the <a href=solutions.txt>solutions file</a></li>
+	<li>These challenges will get progressively harder</li>
+	<li>You can always go back to <a href=/RXSS/GET>The listing</a></li>
+<ul>
+</div>
+<hr>
+<div class="w3-content" style="max-width:1100px">
+<sCript>alert(1)</sCript>
+<form action="10.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <input type="submit" value="Submit">
+</form> 
